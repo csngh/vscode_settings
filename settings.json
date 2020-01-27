@@ -1,0 +1,34 @@
+//Last Updated: 27.01.2020
+//Author: Chetan Singh
+
+{
+    "editor.fontSize": 16,
+    "editor.fontWeight": "500",
+    "editor.formatOnSave": true,
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": "600",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "python.pythonPath": "/Users/csingh/python_custom_env/base/bin/python",
+    "python.formatting.provider": "black",
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -Wall -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.showExecutionMessage": true,
+    "code-runner.clearPreviousOutput": true,
+    "workbench.colorTheme": "Andromeda",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "C_Cpp.updateChannel": "Insiders",
+}
+
